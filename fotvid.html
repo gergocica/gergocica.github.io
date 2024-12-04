@@ -37,12 +37,19 @@ div.desc {
     width: 49.99999%;
     margin: 6px 0;
   }
+  
+  .clearfix:after {
+    display: none;
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
+
+  .clearfix:after {
+    display: none;
+}
 }
 
 .clearfix:after {
