@@ -183,12 +183,8 @@ img.button2 {
     }
 
     .container {
-  margin-bottom: 30px;
-  }
-
-footer {
-  margin-top: 40px;
-  }
+  padding-bottom: 30px;
+    }
 
     h1 {
         font-size: 26px; 
