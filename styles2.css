@@ -133,7 +133,7 @@ img.button2 {
     opacity: 1; 
 }
 
-@media (max-width: 581px) {
+@media (max-width: 582px) {
     .imlink {
         margin-bottom: 60px;
         padding-bottom:15px;
