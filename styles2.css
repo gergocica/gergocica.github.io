@@ -174,7 +174,7 @@ img.button2 {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
     .imlink {
         margin-bottom: 20px; 
     }
