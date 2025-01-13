@@ -97,6 +97,7 @@ header, footer {
     width: 100%;
     max-width: 580px;
     margin-bottom: 80px; 
+    padding-top:15px;
 }
 
 .imlink a {
