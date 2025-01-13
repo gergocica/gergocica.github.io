@@ -136,7 +136,7 @@ img.button2 {
 @media (max-width: 582px) {
     .imlink {
         margin-bottom: 60px;
-        padding-bottom:18px;
+        padding-bottom:15px;
     }
 }
 
@@ -183,7 +183,7 @@ img.button2 {
     }
 
     .container {
-  padding-bottom: 15px;
+  padding-bottom: 18px;
     }
 
     h1 {
