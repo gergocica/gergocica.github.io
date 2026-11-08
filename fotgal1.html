@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fotók</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 9px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin: 6px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Fotók</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://live.staticflickr.com/65535/54183233169_cb101a167a_h.jpg">
+      <img src="https://live.staticflickr.com/65535/54183233169_f1c1656586_b.jpg">
+    </a>
+    <div class="desc">Jul 23, 2021</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://live.staticflickr.com/65535/54183241549_8552e3b5f2_b.jpg">
+      <img src="https://live.staticflickr.com/65535/54183241549_8552e3b5f2_b.jpg">
+    </a>
+    <div class="desc">Jul 23, 2021 - 2</div>
+  </div>
+</div>
+
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://live.staticflickr.com/65535/54183228048_585c6b90b5_b.jpg">
+      <img src="https://live.staticflickr.com/65535/54183228048_585c6b90b5_b.jpg">
+    </a>
+    <div class="desc">Aug 27, 2021</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://live.staticflickr.com/65535/54182952816_a72023026f_b.jpg">
+      <img src="https://live.staticflickr.com/65535/54182952816_a72023026f_b.jpg">
+    </a>
+    <div class="desc">Szep 16, 2021</div>
+  </div>
+</div>
+
+  <div class="clearfix"></div>
+
+  <div style="padding:6px;">
+  <p><b>Ezek itt Gergő cicám fotói és a vele kapcsolatos fotók, amiket az évek folyamán készitettem.</b></p>
+</div>
+
+</body>
+</html>
